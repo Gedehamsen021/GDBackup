@@ -39,7 +39,7 @@
             this.box_sexta = new System.Windows.Forms.TextBox();
             this.box_quinta = new System.Windows.Forms.TextBox();
             this.box_quarta = new System.Windows.Forms.TextBox();
-            this.box_terça = new System.Windows.Forms.TextBox();
+            this.box_terca = new System.Windows.Forms.TextBox();
             this.box_segunda = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -105,7 +105,7 @@
             this.panel1.Controls.Add(this.box_sexta);
             this.panel1.Controls.Add(this.box_quinta);
             this.panel1.Controls.Add(this.box_quarta);
-            this.panel1.Controls.Add(this.box_terça);
+            this.panel1.Controls.Add(this.box_terca);
             this.panel1.Controls.Add(this.box_segunda);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.label9);
@@ -154,12 +154,12 @@
             this.box_quarta.Size = new System.Drawing.Size(335, 20);
             this.box_quarta.TabIndex = 12;
             // 
-            // box_terça
+            // box_terca
             // 
-            this.box_terça.Location = new System.Drawing.Point(63, 43);
-            this.box_terça.Name = "box_terça";
-            this.box_terça.Size = new System.Drawing.Size(335, 20);
-            this.box_terça.TabIndex = 11;
+            this.box_terca.Location = new System.Drawing.Point(63, 43);
+            this.box_terca.Name = "box_terca";
+            this.box_terca.Size = new System.Drawing.Size(335, 20);
+            this.box_terca.TabIndex = 11;
             // 
             // box_segunda
             // 
@@ -288,7 +288,7 @@
         private System.Windows.Forms.TextBox box_sexta;
         private System.Windows.Forms.TextBox box_quinta;
         private System.Windows.Forms.TextBox box_quarta;
-        private System.Windows.Forms.TextBox box_terça;
+        private System.Windows.Forms.TextBox box_terca;
         private System.Windows.Forms.TextBox box_segunda;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;

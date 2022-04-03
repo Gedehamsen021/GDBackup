@@ -68,6 +68,7 @@
             this.btn_backup.TabIndex = 2;
             this.btn_backup.Text = "FORÇAR BACKUP";
             this.btn_backup.UseVisualStyleBackColor = true;
+            this.btn_backup.Click += new System.EventHandler(this.btn_backup_Click);
             // 
             // label1
             // 

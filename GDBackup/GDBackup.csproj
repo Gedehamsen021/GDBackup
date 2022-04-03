@@ -62,6 +62,7 @@
     <Compile Include="configuracoes.Designer.cs">
       <DependentUpon>configuracoes.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomForms.cs" />
     <Compile Include="diretorios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,8 +70,8 @@
       <DependentUpon>diretorios.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>

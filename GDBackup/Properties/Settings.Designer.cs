@@ -62,18 +62,6 @@ namespace GDBackup.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string Path {
-            get {
-                return ((string)(this["Path"]));
-            }
-            set {
-                this["Path"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string FileName {
             get {
                 return ((string)(this["FileName"]));
@@ -128,6 +116,126 @@ namespace GDBackup.Properties {
             }
             set {
                 this["Script_Name"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Usuario_ftp {
+            get {
+                return ((string)(this["Usuario_ftp"]));
+            }
+            set {
+                this["Usuario_ftp"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Senha_ftp {
+            get {
+                return ((string)(this["Senha_ftp"]));
+            }
+            set {
+                this["Senha_ftp"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Segunda_path {
+            get {
+                return ((string)(this["Segunda_path"]));
+            }
+            set {
+                this["Segunda_path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Terca_path {
+            get {
+                return ((string)(this["Terca_path"]));
+            }
+            set {
+                this["Terca_path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Quarta_path {
+            get {
+                return ((string)(this["Quarta_path"]));
+            }
+            set {
+                this["Quarta_path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Quinta_path {
+            get {
+                return ((string)(this["Quinta_path"]));
+            }
+            set {
+                this["Quinta_path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Sexta_path {
+            get {
+                return ((string)(this["Sexta_path"]));
+            }
+            set {
+                this["Sexta_path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Sabado_path {
+            get {
+                return ((string)(this["Sabado_path"]));
+            }
+            set {
+                this["Sabado_path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Domingo_path {
+            get {
+                return ((string)(this["Domingo_path"]));
+            }
+            set {
+                this["Domingo_path"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("MANAGER")]
+        public string Senha_Sistema {
+            get {
+                return ((string)(this["Senha_Sistema"]));
+            }
+            set {
+                this["Senha_Sistema"] = value;
             }
         }
     }
