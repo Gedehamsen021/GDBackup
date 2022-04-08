@@ -25,12 +25,23 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugType>pdbonly</DebugType>
+    <DebugType>none</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <DefineConstants>
+    </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>GD.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Cake.Powershell, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
@@ -56,6 +67,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cfg_email.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cfg_email.Designer.cs">
+      <DependentUpon>cfg_email.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cfg_ftp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cfg_ftp.Designer.cs">
+      <DependentUpon>cfg_ftp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cfg_sistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cfg_sistema.Designer.cs">
+      <DependentUpon>cfg_sistema.cs</DependentUpon>
+    </Compile>
     <Compile Include="configuracoes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +108,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="cfg_email.resx">
+      <DependentUpon>cfg_email.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cfg_ftp.resx">
+      <DependentUpon>cfg_ftp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cfg_sistema.resx">
+      <DependentUpon>cfg_sistema.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="configuracoes.resx">
       <DependentUpon>configuracoes.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +136,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="GD.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

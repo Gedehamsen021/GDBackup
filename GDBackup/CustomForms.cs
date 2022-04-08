@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GDBackup
@@ -17,7 +13,7 @@ namespace GDBackup
             TextBox textBox = new TextBox();
             Button buttonOk = new Button();
             Button buttonCancel = new Button();
-
+            form.TopMost = true;
             form.Text = title;
             label.Text = promptText;
             textBox.Text = value;

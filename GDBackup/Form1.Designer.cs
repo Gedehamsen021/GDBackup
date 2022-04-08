@@ -128,7 +128,9 @@
             this.Controls.Add(this.btn_config);
             this.Controls.Add(this.btn_sair);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GDBACKUP";
             this.ResumeLayout(false);
             this.PerformLayout();

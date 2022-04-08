@@ -238,5 +238,101 @@ namespace GDBackup.Properties {
                 this["Senha_Sistema"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Smtp {
+            get {
+                return ((string)(this["Smtp"]));
+            }
+            set {
+                this["Smtp"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Mail_user {
+            get {
+                return ((string)(this["Mail_user"]));
+            }
+            set {
+                this["Mail_user"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Mail_pass {
+            get {
+                return ((string)(this["Mail_pass"]));
+            }
+            set {
+                this["Mail_pass"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Cliente {
+            get {
+                return ((string)(this["Cliente"]));
+            }
+            set {
+                this["Cliente"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Mail_receiver {
+            get {
+                return ((string)(this["Mail_receiver"]));
+            }
+            set {
+                this["Mail_receiver"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int Smtp_port {
+            get {
+                return ((int)(this["Smtp_port"]));
+            }
+            set {
+                this["Smtp_port"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Utiliza_email {
+            get {
+                return ((bool)(this["Utiliza_email"]));
+            }
+            set {
+                this["Utiliza_email"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Sistema_manutencao {
+            get {
+                return ((bool)(this["Sistema_manutencao"]));
+            }
+            set {
+                this["Sistema_manutencao"] = value;
+            }
+        }
     }
 }

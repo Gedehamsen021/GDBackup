@@ -8,6 +8,7 @@ namespace GDBackup
         public diretorios()
         {
             InitializeComponent();
+            TopMost = true;
             box_fileName.Text = Properties.Settings.Default.FileName;
             box_format.Text = Properties.Settings.Default.Format;
             box_segunda.Text = Properties.Settings.Default.Segunda_path;

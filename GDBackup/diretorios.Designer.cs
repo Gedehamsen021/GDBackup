@@ -267,6 +267,7 @@
             this.Controls.Add(this.box_fileName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "diretorios";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "diretorios";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
